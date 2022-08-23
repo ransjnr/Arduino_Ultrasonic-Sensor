@@ -22,7 +22,7 @@ void loop() {
 
 
    duration=pulseIn(echoPin,HIGH);
-        distance=(duration*0.034/2); //speed of code is 340m/s, c=2d/t: hence  d=ct/2
+        distance=(duration*0.034/2); //speed of sound is 340m/s, c=2d/t: hence  d=ct/2
         serial.print("Distance");    
         serial.print(distance);
         serial.printIn("cm");
