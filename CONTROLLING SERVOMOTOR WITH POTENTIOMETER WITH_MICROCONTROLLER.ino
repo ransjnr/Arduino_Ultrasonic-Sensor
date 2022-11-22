@@ -1,4 +1,4 @@
-//interfacing ultrasonic sensor with arduino microcontroller.
+//CONTROLLING SERVOMOTOR WITH POTENTIOMETER WITH MICROCONTROLLER
 
 #define echoPin2 //define the location of echo pin 
 #define trigPin3 //define the location of trig pin
